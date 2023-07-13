@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lavender;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+
+#board{
+    width: 480px;
+    height: 480px;
+    border: 10px solid grey;
+    background-color: rgba(196, 211, 223, 0.768);
+    display: flex;
+    flex-wrap: wrap;        /*To wrap tiles*/
+    margin: auto;
+    margin-top: 25px;
+}
+
+#board div{
+    width: 58px;      /* 60-2-2 */
+    height: 58px;
+    /* background-color: aliceblue; */
+    border: 1px solid whitesmoke;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.tile-clicked{
+    background-color: darkgrey;
+}
+
+.x1{
+    color: red;
+}
+
+.x2{
+    color: blue;
+}
+
+.x3{
+    color: green;
+}
+
+.x4{
+    color: hotpink;
+}
+
+.x5{
+    color: teal;
+}
+
+.x6{
+    color: brown;
+}
+
+.x7{
+    color: yellow;
+}
+
+.x8{
+    color: navy;
+}
+
+#flag{
+    width: 80px;
+    height: 60px;
+    font-size: 30px;
+    margin-top: 25px;
+    background-color: lightgray;
+}
